@@ -1423,7 +1423,7 @@ function main:PlayerInfo()
 			
 			Seperator.Name = "Seperator"
 			Seperator.Parent = MainFramePage
-			Seperator.BackgroundColor3 = Color3.fromRGB(35, 21, 233)
+			Seperator.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			Seperator.BackgroundTransparency = 1.000
 			Seperator.Size = UDim2.new(0, 470, 0, 20)
 			
@@ -1490,7 +1490,7 @@ ImageButton1.BorderSizePixel = 0
 ImageButton1.Position = UDim2.new(0.120833337, 0, 0.0952890813, 0)
 ImageButton1.Size = UDim2.new(0, 50, 0, 50)
 ImageButton1.Draggable = true
-ImageButton1.Image = "http://www.roblox.com/asset/?id=13486422974"
+ImageButton1.Image = "http://www.roblox.com/asset/?id=17084372007"
 ImageButton1.MouseButton1Down:connect(function()
   game:GetService("VirtualInputManager"):SendKeyEvent(true,305,false,game)
   game:GetService("VirtualInputManager"):SendKeyEvent(false,305,false,game)
@@ -1499,16 +1499,14 @@ UICorner.Parent = ImageButton1
 
 local Library = Update:Window("","",Enum.KeyCode.RightControl);
 
-Main = Library:Tab("Main",11446825283)
-Farm = Library:Tab("Farm/Quest",9260732790)
-Stats = Library:Tab("Stats",11447069304)
-Combat = Library:Tab("Combats",11446900930)
+RaceV4 = Library:Tab("Credits",17084414339)
+Main = Library:Tab("OmniTrix",17084373662)
+Farm = Library:Tab("Destransformar",17084372007)
+Stats = Library:Tab("recalibrado",17084390959)
+Combat = Library:Tab("ultimatrix",17084393143)
 Teleport = Library:Tab("Teleport",11446920523)
-Dungeon = Library:Tab("Raid/Esp",11446957539)
-Fruit = Library:Tab("Fruit",11446965348)
-Shop = Library:Tab("Shops",6031265976)
-Misc = Library:Tab("Misc",11447063791)
-RaceV4 = Library:Tab("RaceV4",11446900930)
+Dungeon = Library:Tab("Alien X",17084369861)
+
 
 Main:Seperator("Server")
 
@@ -2061,3 +2059,22 @@ Teleport:Button("Teleport to SuperOminiTrix Cave", function()
     game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5092.29541015625, 6.885977745056152, -8425.8935546875)
 end)
 
+
+
+
+------CREDITOS POKELOK-------
+
+RaceV4:Label("Script By Pokas 🐗🐗")
+RaceV4:Label("Seja bem vindo ao Gomu HUB")
+
+RaceV4:Seperator("Canal Do Youtube")
+
+RaceV4:Button("POKELOK BR", function()
+    setclipboard("https://www.youtube.com/channel/UCMhX99w3W24yP7VaDJMlbNQ")
+end)
+
+RaceV4:Button("Entre No Servidor Do DISCORD", function()
+    setclipboard("https://discord.gg/FMkf5PfuSt")
+end)
+
+RaceV4:AddLine()

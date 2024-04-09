@@ -1622,249 +1622,442 @@ Main:Button("Fourarms", function()
     game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Fourarms))
 end)
 
-
-
-----------Transform into aliens----------
-  
-
-Tab:AddButton({
-	Name = "Besta",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Besta))
-         
-
-	end    
-})
-
-Main:Button("Besta", function()
-    local Besta = {
+Main:Button("Insectoid", function()
+    local Insectoid = {
         [1] = "OS",
-        [2] = "wildmutt",
+        [2] = "stinkfly",
         [3] = 120,
         [4] = true
     }
-    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Besta))
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Insectoid))
+end)
+
+Main:Button("Aquático", function()
+    local Aquatico = {
+        [1] = "OS",
+        [2] = "ripjaws",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Aquatico))
 end)
 
 
-Tab:AddButton({
-	Name = "Diamante",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Diamante))
-         
+Main:Button("Fantasmático", function()
+    local Fantasmatico = {
+        [1] = "OS",
+        [2] = "ghostfreak",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Fantasmatico))
+end)
+
+
+Main:Button("Bola de Canhão", function()
+    local BoladeCanhao = {
+        [1] = "OS",
+        [2] = "cannonbolt",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(BoladeCanhao))
+end)
+
+Main:Button("Cipó Selvagem", function()
+    local CipoSelvagem = {
+        [1] = "OS",
+        [2] = "wildvine",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(CipoSelvagem))
+end)
+
+Main:Button("Lobisben", function()
+    local Lobisben = {
+        [1] = "OS",
+        [2] = "blitzwolfer",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Lobisben))
+end)
+
+Main:Button("Ben Múmia", function()
+    local BenMumia = {
+        [1] = "OS",
+        [2] = "snareoh",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(BenMumia))
+end)
+
+
+Main:Button("Frankenstrike", function()
+    local Frankenstrike = {
+        [1] = "OS",
+        [2] = "frankenstrike",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Frankenstrike))
+end)
+
+Main:Button("Glutão", function()
+    local Glutao = {
+        [1] = "OS",
+        [2] = "upchuck",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Glutao))
+end)
+
+
+Main:Button("Megaolhos", function()
+    local Megaolhos = {
+        [1] = "OS",
+        [2] = "eyeguy",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Megaolhos))
+end)
+
+
+Main:Button("Gigante", function()
+    local Gigante = {
+        [1] = "OS",
+        [2] = "waybig",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Gigante))
+end)
+
+Main:Button("Ditto", function()
+    local Ditto = {
+        [1] = "OS",
+        [2] = "ditto",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Ditto))
+end)
+
+
+Main:Button("Feedback", function()
+    local Feedback = {
+        [1] = "OS",
+        [2] = "feedback",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Feedback))
+end)
+
+
+Main:Button("Chocante", function()
+    local Chocante = {
+        [1] = "OS",
+        [2] = "buzzshock",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Chocante))
+end)
+
+
+Main:Button("Iguana Ártica", function()
+    local Iguanartica = {
+        [1] = "OS",
+        [2] = "articguana",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Iguanartica))
+end)
+
+
+Main:Button("Cuspidor", function()
+    local Cuspidor = {
+        [1] = "OS",
+        [2] = "spitter",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Cuspidor))
+end)
+
+
+Main:Button("Contratempo", function()
+    local Contratempo = {
+        [1] = "OS",
+        [2] = "clockwork",
+        [3] = 120,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Contratempo))
+end)
+
+Main:Button("Destranformar", function()
+    local args = {
+        [1] = false
+    }
+    game:GetService("ReplicatedStorage").Remotes.UnMorph:FireServer(unpack(args))
+end)
+
+----------Destransformar----------
+
+Farm:Seperator("🦾 Destranformar 🦾")
+
+Farm:Button("Destranformar", function()
+    local args = {
+        [1] = false
+    }
+    game:GetService("ReplicatedStorage").Remotes.UnMorph:FireServer(unpack(args))
+end)
+
+----------Ominitrix Recalibrado----------
+
+Stats:Seperator("🦾 Ominitrix Recalibrado 🦾")
+
+Stats:Button("Fogo Fatuo", function()
+    local Fogofatuo = {
+        [1] = "AF",
+        [2] = "swampfire",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Fogofatuo))
+end)
+
+
+Stats:Button("EchoEcho", function()
+    local EchoEcho = {
+        [1] = "AF",
+        [2] = "echoecho",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(EchoEcho))
+end)
+
+
+Stats:Button("Enormossauro", function()
+    local Enormossauro = {
+        [1] = "AF",
+        [2] = "humungosaur",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Enormossauro))
+end)
+
+
+Stats:Button("Arraiajato", function()
+    local Arraiajato = {
+        [1] = "AF",
+        [2] = "jetray",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Arraiajato))
+end)
+
+
+Stats:Button("Friagem", function()
+    local Friagem = {
+        [1] = "AF",
+        [2] = "bigchill",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Friagem))
+end)
+
+
+Stats:Button("Cromático", function()
+    local Cromatico = {
+        [1] = "AF",
+        [2] = "chromastone",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Cromatico))
+end)
+
+Stats:Button("Artropode", function()
+    local Artropode = {
+        [1] = "AF",
+        [2] = "brainstorm",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Artropode))
+end)
+
+
+
+Stats:Button("Macaco Aranha", function()
+    local MacacoAranha = {
+        [1] = "AF",
+        [2] = "spidermonkey",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(MacacoAranha))
+end)
+
+
+Stats:Button("Gosma", function()
+    local Gosma = {
+        [1] = "AF",
+        [2] = "goop",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Gosma))
+end)
+
+
+Stats:Button("Estrela Polar", function()
+    local EstrelaPolar = {
+        [1] = "AF",
+        [2] = "lodestar",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(EstrelaPolar))
+end)
+
+
+Stats:Button("Rath", function()
+    local Rath = {
+        [1] = "AF",
+        [2] = "rath",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Rath))
+end)
+
+
+Stats:Button("Nanomech", function()
+    local Nanomech = {
+        [1] = "AF",
+        [2] = "nanomec",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Nanomech))
+end)
+
+
+---------ultratrix-----------
+
+Combat:Button("Fogo fatuo supremo", function()
+    local Fogofatuos = {
+        [1] = "UA",
+        [2] = "uswampfire",
+        [3] = 360,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fogofatuos))
+end)
+
+Combat:Button("Eco Eco supremo", function()
+    local Ecoeco = {
+        [1] = "UA",
+        [2] = "uechoecho",
+        [3] = 360,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(ecoecos))
+end)
+
+Combat:Button("enormossauro supremo", function()
+    local Enormossauro = {
+        [1] = "UA",
+        [2] = "uhumungosaur",
+        [3] = 360,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(enormossauros))
+end)
+
+Combat:Button("arraia Ajato supremo", function()
+    local Arraiajato = {
+        [1] = "UA",
+        [2] = "ujetray",
+        [3] = 360,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(arraiajatos))
+end)
+
+Combat:Button("friagem supremo", function()
+    local friagems = {
+        [1] = "UA",
+        [2] = "ubigchill",
+        [3] = 360,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(friagems))
+end)
+
+
+------alienx-------
+
+Dungeon:Button("Alien X", function()
+    local AlienX = {
+        [1] = "AF",
+        [2] = "alienx",
+        [3] = 240,
+        [4] = true
+    }
+    game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(AlienX))
+end)
+
+
+
+------teleporte-------
+
+Teleport:Button("Teleport to Tower Omini X", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(89049.0546875, -272.8567199707031, -42248.5234375)
+end)
+
+Teleport:Button("Teleport to Alien X Quest 1, Part 1 (Castle)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1912.4434814453125, -895.8948974609375, 931.8926391601562)
+end)
+
+Teleport:Button("Teleport to Alien X Quest 2, Parte 2 (underwater)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-775.5474243164062, -189.9492950439453, -73702.9140625)
+end)
+
+Teleport:Button("Teleport to Alien X Quest 3, Part (Hot and cold)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(87.81784057617188, 112.49908447265625, 92830.8203125)
+end)
+
+Teleport:Button("Teleport to Alien X Quest 4, Parte 4 (Cube)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(101879.6015625, 2598.86767578125, -4027.4951171875)
+end)
+
+Teleport:Button("Teleport to OminiTrix (first/Primeiro)", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-391.0207824707031, -44.189552307128906, -4354.06884765625)
+end)
+
+Teleport:Button("Teleport to space npc", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(414.95709228515625, 35290.5703125, 244.31788635253906)
+end)
+
+Teleport:Button("Teleport to coloseum", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-1153.5635986328125, 7.670101165771484, -6941.88525390625)
+end)
+
+Teleport:Button("Teleport to SuperOminiTrix Cave", function()
+    game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5092.29541015625, 6.885977745056152, -8425.8935546875)
+end)
 
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "XR 18",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Xrl8))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "MCinzenta",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(MCinzenta))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Quatro Braços",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fourarms))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Insectoid",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(insectoid))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Aquatico",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(Aquatico))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Ultra T",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(ultrat))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "fantasmatico",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(fantasmatico))
-         
-
-	end    
-})
-
-  
-Tab:AddButton({
-	Name = "Bola de Canhão",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(boladecanhao))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "cipó selvagem",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(siposelvagem))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
- 	Name = "Lobisomem",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(lobisben))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Ben Mumia",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(benmumia))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Frankenstrike",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(frankenstrike))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Glutão",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(glutao))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Mega Olhos",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(megaolhos))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Gigante",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(gigante))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Ditto",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(ditto))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "FeedBack",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(feedback))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Chocante",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(chocante))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Iguana Artica",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(iguanartica))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Cuspidor",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(cuspidor))
-         
-
-	end    
-})
-
-
-Tab:AddButton({
-	Name = "Contra Tempo",
-	Callback = function()
-      		game:GetService("ReplicatedStorage").Remotes.AlienMorph:FireServer(unpack(contratempo))
-         
-
-	end    
-})
-
-
-  

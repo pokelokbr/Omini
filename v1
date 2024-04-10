@@ -1,5 +1,5 @@
 do local GUI = game.CoreGui:FindFirstChild("SOMEXHUB");if GUI then GUI:Destroy();end;if _G.Color == nil then
-       _G.Color = Color3.fromRGB(35,21,233)
+       _G.Color = Color3.fromRGB(0,0,0)
    end 
 end
 
@@ -86,7 +86,7 @@ function Update:Window(text,logo,keybind)
 	Main.Active = true
 	Main.ClipsDescendants = true
 	Main.AnchorPoint = Vector2.new(0.5,0.5)
-	Main.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
+	Main.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
 	Main.Size = UDim2.new(0, 656, 0, 400)
   Main.BackgroundTransparency = 1.000
@@ -111,7 +111,7 @@ Top.ZIndex = 2
 	Logo.BackgroundTransparency = 1.000
 	Logo.Position = UDim2.new(0, 10, 0, 30)
 	Logo.Size = UDim2.new(0, 60, 0, 60)
-	Logo.Image = "rbxassetid://sua logo aqui"
+	Logo.Image = "rbxassetid://17084372007"
 	Logo.Active = true
 	Logo.ZIndex = 8
 	
@@ -126,7 +126,7 @@ Top.ZIndex = 2
 	Name.Size = UDim2.new(0, 50, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
 	Name.Text = "chibata Hub"
-	Name.TextColor3 = Color3.fromRGB(35, 21, 233)
+	Name.TextColor3 = Color3.fromRGB(255, 0, 0)
 	Name.TextSize = 17.000
 
 	local Hub = Instance.new("TextLabel")
@@ -145,8 +145,8 @@ Top.ZIndex = 2
 	local Tab = Instance.new("Frame")
 	Tab.Name = "Tab"
 	Tab.Parent = Main
-	Tab.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
-	Tab.BackgroundTransparency = 0.4
+	Tab.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+	Tab.BackgroundTransparency = 0
 	Tab.Position = UDim2.new(0, 48, 0, 30)
 	Tab.Size = UDim2.new(0, 75, 0, 365)
 	
@@ -155,10 +155,10 @@ Top.ZIndex = 2
 postog123.Name = "UIStroke"
 postog123.Parent = Tab
 postog123.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-postog123.Color = Color3.fromRGB(35,21,233)
+postog123.Color = Color3.fromRGB(0, 0, 0)
 postog123.LineJoinMode = Enum.LineJoinMode.Round
 postog123.Thickness = 1
-postog123.Transparency = 0.4
+postog123.Transparency = 0
 postog123.Enabled = true
 postog123.Archivable = true
 
@@ -192,7 +192,7 @@ postog123.Archivable = true
 	local Page = Instance.new("Frame")
 	Page.Name = "Page"
 	Page.Parent = Main
-	Page.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
+	Page.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 	Page.Position = UDim2.new(0.210126834, 0, 0.075000003, 0)
 	Page.Size = UDim2.new(0, 490, 0, 365)
 
@@ -256,9 +256,9 @@ postog123.Archivable = true
 		TabButton.BackgroundTransparency = 1.000
 		TabButton.Size = UDim2.new(0, 55, 0, 50)
 		TabButton.Font = Enum.Font.GothamSemibold
-		TabButton.TextColor3 = Color3.fromRGB(35, 21, 233)
+		TabButton.TextColor3 = Color3.fromRGB(255, 0, 0)
 		TabButton.TextSize = 12.000
-		TabButton.TextTransparency = 0.500
+		TabButton.TextTransparency = 0
 
 		local IDK = Instance.new("ImageLabel")
 		IDK.Name = "LogoIDK"
@@ -269,7 +269,7 @@ postog123.Archivable = true
 		IDK.Size = UDim2.new(0, 40, 0, 30)
 		IDK.Image = "rbxassetid://"..tostring(lol)
 		IDK.ImageColor3 = Color3.fromRGB(105, 105, 105)
-		--TabButton.TextTransparency = 0.500
+		--TabButton.TextTransparency = 0
 
 		local MainFramePage = Instance.new("ScrollingFrame")
 		MainFramePage.Name = text.."_Page"
@@ -299,7 +299,7 @@ postog123.Archivable = true
 					TweenService:Create(
 						v,
 						TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-						{TextTransparency = 0.5}
+						{TextTransparency = 0}
 					):Play()
 				end
 				TweenService:Create(
@@ -322,7 +322,7 @@ postog123.Archivable = true
 					TweenService:Create(
 						v,
 						TweenInfo.new(0.3,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-						{TextTransparency = 0.5}
+						{TextTransparency = 0}
 					):Play()
 				end
 				TweenService:Create(
@@ -357,7 +357,7 @@ postog123.Archivable = true
 			TextBtn.Parent = MainFramePage
 			TextBtn.BackgroundColor3 = Color3.fromRGB(144,238,144)
 			TextBtn.Position = UDim2.new(0, 1, 0, 1)
-			TextBtn.BackgroundTransparency = 0.8
+			TextBtn.BackgroundTransparency = 1
 			TextBtn.Size = UDim2.new(0, 468, 0, 29)
 			TextBtn.AutoButtonColor = false
 			TextBtn.Font = Enum.Font.GothamSemibold
@@ -383,7 +383,7 @@ postog123.Archivable = true
 				TweenService:Create(
 					Black,
 					TweenInfo.new(0.4,Enum.EasingStyle.Quad,Enum.EasingDirection.Out),
-					{BackgroundTransparency = 0.7}
+					{BackgroundTransparency = 1}
 				):Play()
 			end)
 			TextBtn.MouseLeave:Connect(function()
@@ -411,7 +411,7 @@ postog123.Archivable = true
                 Toggle.Name = "Toggle"
                 Toggle.Parent = MainFramePage
                 Toggle.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
-                Toggle.BackgroundTransparency = 0.1
+                Toggle.BackgroundTransparency = 1
                 Toggle.BorderSizePixel = 0
                 Toggle.AutoButtonColor = false
                 Toggle.Size = UDim2.new(0, 470, 0, 31)
@@ -562,7 +562,7 @@ Yawa.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
 Yawa.Color = Color3.fromRGB(35,21,233)
 Yawa.LineJoinMode = Enum.LineJoinMode.Round
 Yawa.Thickness = 1
-Yawa.Transparency = 0.4
+Yawa.Transparency = 0
 Yawa.Enabled = true
 Yawa.Archivable = true
  
@@ -716,7 +716,7 @@ function main:Textbox1(boxtitle, callback)
                 TextBox.TextColor3 = Color3.fromRGB(230,230,230)
                 TextBox.TextWrapped = true
                 TextBox.TextScaled = false
-                TextBox.TextTransparency = 0.5
+                TextBox.TextTransparency = 0
                 TextBox.PlaceholderColor3 = Color3.fromRGB(230,230,230)
                 TextBox.TextSize = 12.000
             
@@ -748,7 +748,7 @@ function main:Textbox1(boxtitle, callback)
                         game.TweenService:Create(TextBox, TweenInfo.new(0.08, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {TextTransparency = 0}):Play()
                         wait(0.15)
                         TextBox:TweenSize(UDim2.new(0, 80, 0, 20), "InOut", "Linear", 0.08, true)
-                        game.TweenService:Create(TextBox, TweenInfo.new(0.08, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {TextTransparency = 0.5}):Play()
+                        game.TweenService:Create(TextBox, TweenInfo.new(0.08, Enum.EasingStyle.Linear, Enum.EasingDirection.InOut), {TextTransparency = 0}):Play()
                         return
                     end
                     TextBox.Text = textbox
@@ -828,7 +828,7 @@ function main:PlayerInfo()
         	Lvl.BackgroundTransparency = 1.000
         	Lvl.Position = UDim2.new(0, 85, 0.113057934, 0)
         	Lvl.Size = UDim2.new(0, 200, 0, 27)
-        	Lvl.TextTransparency = 0.8
+        	Lvl.TextTransparency = 0
         	Lvl.Font = Enum.Font.GothamBold
         	Lvl.TextColor3 = Color3.fromRGB(255, 255, 255)
         	Lvl.TextSize = 12.000
@@ -842,7 +842,7 @@ function main:PlayerInfo()
         	Fruit.Position = UDim2.new(0, 85, 0.199820146, 0)
         	Fruit.Size = UDim2.new(0, 200, 0, 27)
         	Fruit.Font = Enum.Font.GothamBold
-        	Fruit.TextTransparency = 0.8
+        	Fruit.TextTransparency = 0
         	Fruit.TextColor3 = Color3.fromRGB(255, 255, 255)
         	Fruit.TextSize = 12.000
         	Fruit.TextXAlignment = Enum.TextXAlignment.Left
@@ -1030,7 +1030,7 @@ function main:PlayerInfo()
 				MainDropDown.Name = "MainDropDown"
 				MainDropDown.Parent = MainFramePage
 				MainDropDown.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
-				MainDropDown.BackgroundTransparency = 0.700
+				MainDropDown.BackgroundTransparency = 1
 				MainDropDown.BorderSizePixel = 0
 				MainDropDown.ClipsDescendants = true
 				MainDropDown.Size = UDim2.new(0.975000024, 0, 0, 30)
@@ -1042,7 +1042,7 @@ function main:PlayerInfo()
 				MainDropDown_2.Name = "MainDropDown"
 				MainDropDown_2.Parent = MainDropDown
 				MainDropDown_2.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
-				MainDropDown_2.BackgroundTransparency = 0.700
+				MainDropDown_2.BackgroundTransparency = 1
 				MainDropDown_2.BorderSizePixel = 0
 				MainDropDown_2.ClipsDescendants = true
 				MainDropDown_2.Size = UDim2.new(1, 0, 0, 30)
@@ -1277,7 +1277,7 @@ function main:PlayerInfo()
 
 			bar1.Name = "bar1"
 			bar1.Parent = bar
-			bar1.BackgroundColor3 = Color3.fromRGB(35, 21, 233)
+			bar1.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			bar1.BackgroundTransparency = 0
 			bar1.Size = UDim2.new(set/max, 0, 0, 5)
 
@@ -1319,7 +1319,7 @@ function main:PlayerInfo()
 			valuecorner.Parent = slidervalue
 
 			TextBox.Parent = sliderr
-			TextBox.BackgroundColor3 = Color3.fromRGB(10, 9, 9)
+			TextBox.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
 			TextBox.Position = UDim2.new(0, 400, 0, 4)
 			TextBox.Size = UDim2.new(0, 63, 0, 16)
 			TextBox.Font = Enum.Font.GothamSemibold
@@ -1459,7 +1459,7 @@ function main:PlayerInfo()
 			
 			Linee.Name = "Linee"
 			Linee.Parent = MainFramePage
-			Linee.BackgroundColor3 = Color3.fromRGB(35, 21, 233)
+			Linee.BackgroundColor3 = Color3.fromRGB(255, 0, 0)
 			Linee.BackgroundTransparency = 2.000
 			Linee.Position = UDim2.new(0, 0, 0.119999997, 0)
 			Linee.Size = UDim2.new(0, 470, 0, 20)

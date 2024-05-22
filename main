@@ -59,7 +59,7 @@ end
 
 function Notification(text)
 game.StarterGui:SetCore("SendNotification", {
-  Title = "Pokas Script"; -- the title (ofc)
+  Title = "chibata Hub"; -- the title (ofc)
   Text = text; -- what the text says (ofc)
   Icon = "rbxassetid://13486422974"; -- the image if u want.
   Duration = 3; -- how long the notification should in secounds
@@ -125,7 +125,7 @@ Top.ZIndex = 2
 	Name.Position = UDim2.new(0.107756112, 0, 0, 0)
 	Name.Size = UDim2.new(0, 50, 0, 27)
 	Name.Font = Enum.Font.GothamSemibold
-	Name.Text = "Pokas Script"
+	Name.Text = "chibata Hub"
 	Name.TextColor3 = Color3.fromRGB(255, 0, 0)
 	Name.TextSize = 17.000
 
@@ -2065,7 +2065,7 @@ end)
 ------CREDITOS POKELOK-------
 
 RaceV4:Label("Script By Pokas 🐗🐗")
-RaceV4:Label("Seja bem vindo ao Pokas Script")
+RaceV4:Label("Seja bem vindo ao Gomu HUB")
 
 RaceV4:Seperator("Canal Do Youtube")
 
